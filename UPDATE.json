@@ -1,5 +1,5 @@
 {
-  "version": "2.19.0",
-  "notice": "更新 dbskill 时自动清理本地残留的旧版 dbs-hook 与 dbs-xhs-title，并先备份原文件",
+  "version": "2.20.0",
+  "notice": "商业诊断、对标、执行力、概念拆解和好问题五个 Skill 会先用你给的材料推进，只在缺关键事实时提问",
   "details_url": "https://github.com/dontbesilent2025/dbskill/commits/main"
 }
