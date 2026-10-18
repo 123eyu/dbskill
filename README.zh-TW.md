@@ -4,7 +4,7 @@
 
 > 給創業者與內容創作者使用的中文 AI Skills 工具箱。把真實的商業、內容與行動問題交給 Agent，取得清晰判斷與可以立即執行的下一步。
 
-[![Version](https://img.shields.io/badge/version-2.22.0-111111.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-2.22.1-111111.svg)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-37-111111.svg)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111.svg)](LICENSE)
 
@@ -106,7 +106,7 @@ claude plugin marketplace add dontbesilent2025/dbskill
 claude plugin install dbs@dontbesilent-skills
 ```
 
-`dbs` 外掛包含 35 個業務 Skill 和 1 個 `dbs-update` 更新入口。Claude Code 的主入口使用 `/dbs:dbs`，具體能力例如 `/dbs:dbs-diagnosis`。
+`dbs` 外掛包含 35 個業務 Skill 和 1 個 `dbs-update` 更新入口。Claude Code 的技能調度台使用 `/dbs:dbs`，具體能力例如 `/dbs:dbs-diagnosis`。
 
 只想安裝一個能力時，可以在外掛市集中選擇對應外掛，例如 `claude plugin install dbs-diagnosis@dontbesilent-skills`。
 

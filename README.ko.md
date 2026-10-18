@@ -4,7 +4,7 @@
 
 > 창업가와 콘텐츠 제작자를 위한 중국어 AI Skills 도구 상자입니다. 실제 비즈니스, 콘텐츠, 실행 문제를 Agent 에게 전달하면 명확한 판단과 바로 시작할 수 있는 다음 행동을 얻을 수 있습니다.
 
-[![Version](https://img.shields.io/badge/version-2.22.0-111111.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-2.22.1-111111.svg)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-37-111111.svg)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111.svg)](LICENSE)
 
@@ -106,7 +106,7 @@ claude plugin marketplace add dontbesilent2025/dbskill
 claude plugin install dbs@dontbesilent-skills
 ```
 
-`dbs` 플러그인에는 업무 Skill 35 개와 업데이트용 `dbs-update` 가 포함됩니다. Claude Code 에서는 주 진입점에 `/dbs:dbs`, 개별 기능에 `/dbs:dbs-diagnosis` 등을 사용합니다.
+`dbs` 플러그인에는 업무 Skill 35 개와 업데이트용 `dbs-update` 가 포함됩니다. Claude Code 에서는 스킬 조정 데스크(技能调度台)에 `/dbs:dbs`, 개별 기능에 `/dbs:dbs-diagnosis` 등을 사용합니다.
 
 기능 하나만 설치하려면 해당 마켓플레이스 플러그인을 선택하세요. 예: `claude plugin install dbs-diagnosis@dontbesilent-skills`
 

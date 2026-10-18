@@ -4,7 +4,7 @@
 
 > A Chinese AI Skills toolkit for entrepreneurs and content creators. Give your Agent a real business, content, or execution problem, and get a clear judgment plus the next action you can take.
 
-[![Version](https://img.shields.io/badge/version-2.22.0-111111.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-2.22.1-111111.svg)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-37-111111.svg)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111.svg)](LICENSE)
 
@@ -106,7 +106,7 @@ claude plugin marketplace add dontbesilent2025/dbskill
 claude plugin install dbs@dontbesilent-skills
 ```
 
-The `dbs` plugin includes 35 business Skills and the `dbs-update` system entry. Claude Code namespaces plugin Skills: use `/dbs:dbs` for the main entry and `/dbs:dbs-diagnosis` for a specific capability.
+The `dbs` plugin includes 35 business Skills and the `dbs-update` system entry. Claude Code namespaces plugin Skills: use `/dbs:dbs` for the Skill dispatch desk and `/dbs:dbs-diagnosis` for a specific capability.
 
 To install only one capability, choose its marketplace plugin, for example `claude plugin install dbs-diagnosis@dontbesilent-skills`.
 

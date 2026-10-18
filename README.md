@@ -4,7 +4,7 @@
 
 dbskill 是 dontbesilent 的中文 AI Skills 工具箱，包含商业判断、内容创作、行动决策、学习和知识管理等能力，可安装到支持 Skills 的 Agent 中使用
 
-[![Version](https://img.shields.io/badge/version-2.22.0-2563EB.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-2.22.1-2563EB.svg?style=flat-square)](VERSION)
 [![skills.sh](https://skills.sh/b/dontbesilent2025/dbskill)](https://skills.sh/b/dontbesilent2025/dbskill)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
@@ -72,7 +72,7 @@ claude plugin marketplace add dontbesilent2025/dbskill
 claude plugin install dbs@dontbesilent-skills
 ```
 
-安装完整插件后，Claude Code 会为命令添加 `dbs:` 命名空间：主入口是 `/dbs:dbs`，商业诊断是 `/dbs:dbs-diagnosis`，内容创作是 `/dbs:dbs-content`
+安装完整插件后，Claude Code 会为命令添加 `dbs:` 命名空间：技能调度台是 `/dbs:dbs`，商业诊断是 `/dbs:dbs-diagnosis`，内容创作是 `/dbs:dbs-content`
 
 只安装一个能力时，可以安装对应插件，例如：
 
@@ -96,7 +96,7 @@ claude plugin install dbs-diagnosis@dontbesilent-skills
 /dbs 新手入门
 ```
 
-主入口会介绍能处理的任务、如何选择 Skill，以及怎样开始。之后可以直接提交你正在处理的问题
+技能调度台会介绍能处理的任务、如何选择 Skill，以及怎样开始。之后可以直接提交你正在处理的问题
 
 ### 不确定从哪里开始：把问题交给 `/dbs`
 

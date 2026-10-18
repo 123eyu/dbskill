@@ -161,7 +161,7 @@ Trae Solo 一个 zip 装一个 skill。本压缩包按使用场景分了几个�
 
 ## 必装入口
 
-- **dbs** — 主入口，根据你的问题自动路由到合适的诊断 skill。其他 skill 都依赖它，先装这个。
+- **dbs** — 技能调度台，根据你的问题自动路由到合适的诊断 skill。其他 skill 都依赖它，先装这个。
 - **dbs-update** — 更新 dbskill。安装后直接对 Agent 说「更新 dbskill」。
 
 ## 看商业问题

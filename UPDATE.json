@@ -1,5 +1,5 @@
 {
-  "version": "2.22.0",
-  "notice": "新增「平铺直叙写作」：按事实顺序写产品、功能和更新说明，检查措辞歧义，并保留原意和你锁定的文字。",
+  "version": "2.22.1",
+  "notice": "/dbs 的中文名改为「技能调度台」，名称和说明直接讲清它负责为你的问题挑选并调度合适的 Skill",
   "details_url": "https://github.com/dontbesilent2025/dbskill/commits/main"
 }

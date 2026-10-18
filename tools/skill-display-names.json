@@ -1,7 +1,7 @@
 {
   "version": 1,
   "names": {
-    "dbs": "Skill 导航",
+    "dbs": "技能调度台",
     "dbs-update": "更新 dbskill",
     "dbs-diagnosis": "商业诊断",
     "dbs-benchmark": "对标分析",
