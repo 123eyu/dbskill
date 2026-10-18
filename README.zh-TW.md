@@ -4,13 +4,13 @@
 
 > 給創業者與內容創作者使用的中文 AI Skills 工具箱。把真實的商業、內容與行動問題交給 Agent，取得清晰判斷與可以立即執行的下一步。
 
-[![Version](https://img.shields.io/badge/version-2.22.1-111111.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-3.0.0-111111.svg)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-37-111111.svg)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111.svg)](LICENSE)
 
 **支援：豆包、WorkBuddy、Claude Code、Codex，以及其他支援 Skills 的 Agent。**
 
-dbskill 由 [dontbesilent](https://x.com/dontbesilent) 建立。方法資料包含從 16,152 則公開貼文整理的 4,176 個知識原子；工具箱提供 35 個業務 Skill 和 1 個系統更新入口。
+dbskill 由 [dontbesilent](https://x.com/dontbesilent) 建立。方法資料包含從 16,152 則公開貼文整理的 4,176 個知識原子；工具箱提供 34 個業務 Skill 和 1 個系統更新入口。
 
 **本次更新：** 新增 `/dbs-plain-writing`（平鋪直敘寫作）：按事實與功能順序撰寫、改寫或檢查產品、功能、專案和更新說明，內建 ASD-STE100 清晰表達原則，核對主體、指代、條件和承諾強度，不加行銷鉤子，並保留你鎖定的文字。
 
@@ -68,9 +68,9 @@ dbskill 由 [dontbesilent](https://x.com/dontbesilent) 建立。方法資料包�
 | 釐清概念、目標和問題 | `/dbs-deconstruct`、`/dbs-goal`、`/dbs-good-question` | 可驗證的定義與行動目標 |
 | 處理拖延與行動受阻 | `/dbs-action` | 卡點分析與下一步動作 |
 | 紀錄、復盤長期決策 | `/dbs-decision`、`/dbs-save`、`/dbs-restore`、`/dbs-report` | 本機決策檔案與報告 |
-| 建立內容資產與多端 Agent 工作台 | `/dbs-content-system`、`/dbs-agent-migration`、`/dbs-install-skill` | 本機工程、主題地圖與安裝方案 |
+| 建立內容資產與多端 Agent 工作台 | `/dbs-content-system`、`/dbs-install-skill` | 本機工程、主題地圖與安裝方案 |
 | 把本機資料夾變成知識庫 | `/dbs-knowledge` | 知識庫導航、版本規則與可直接使用的提問入口 |
-| 把反覆出現的任務製作成 Skill | `/dbs-skill-maker` | 可安裝 Skill、驗證結果與可選的發布準備 |
+| 把反覆出現的任務製作成 Skill，或改進已有 Skill | `/dbs-skill-maker` | 待確認的修改方案、新建或改進後的 Skill、改動前後的驗證結果與可選的發布準備 |
 | 將任務交給員工並跟進成果 | `/dbs-human-dispatch` | 委派說明、回饋答疑、成果驗收與進度彙報 |
 
 現行功能、輸入範例與分工，見 [新手入門與 Skill 全目錄](docs/新手入门.md#skill-全目录)。
@@ -106,7 +106,7 @@ claude plugin marketplace add dontbesilent2025/dbskill
 claude plugin install dbs@dontbesilent-skills
 ```
 
-`dbs` 外掛包含 35 個業務 Skill 和 1 個 `dbs-update` 更新入口。Claude Code 的技能調度台使用 `/dbs:dbs`，具體能力例如 `/dbs:dbs-diagnosis`。
+`dbs` 外掛包含 34 個業務 Skill 和 1 個 `dbs-update` 更新入口。Claude Code 的技能調度台使用 `/dbs:dbs`，具體能力例如 `/dbs:dbs-diagnosis`。
 
 只想安裝一個能力時，可以在外掛市集中選擇對應外掛，例如 `claude plugin install dbs-diagnosis@dontbesilent-skills`。
 

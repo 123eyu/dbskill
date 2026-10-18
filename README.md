@@ -4,13 +4,13 @@
 
 dbskill 是 dontbesilent 的中文 AI Skills 工具箱，包含商业判断、内容创作、行动决策、学习和知识管理等能力，可安装到支持 Skills 的 Agent 中使用
 
-[![Version](https://img.shields.io/badge/version-2.22.1-2563EB.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-3.0.0-2563EB.svg?style=flat-square)](VERSION)
 [![skills.sh](https://skills.sh/b/dontbesilent2025/dbskill)](https://skills.sh/b/dontbesilent2025/dbskill)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
 支持豆包、WorkBuddy、Claude Code、Codex 和其他兼容 Skills 的 Agent。项目方法资料从 16,152 条公开推文中筛选整理，包含 4,176 个结构化知识原子。作者：[@dontbesilent](https://x.com/dontbesilent)
 
-**本次更新：** 新增 `/dbs-plain-writing`（平铺直叙写作）：按事实与功能顺序撰写、改写或检查产品、功能、项目和更新说明，内置 ASD-STE100 清晰表达原则，核对主体、指代、条件和承诺强度，不加营销钩子，并保留你锁定的文字。
+**本次更新：** `/dbs` 安排多个 Skill 时，会从你要的结果倒推步骤，执行前先说明收到了什么、怎么安排、为什么这样排；`/dbs-skill-maker` 现在也能改进已有 Skill。`/dbs-agent-migration` 已下线，更新时会自动清理本机旧版。
 
 ## 目录
 

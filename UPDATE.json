@@ -1,5 +1,5 @@
 {
-  "version": "2.22.1",
-  "notice": "/dbs 的中文名改为「技能调度台」，名称和说明直接讲清它负责为你的问题挑选并调度合适的 Skill",
+  "version": "3.0.0",
+  "notice": "/dbs 安排多个 Skill 时，会从你要的结果倒推步骤，并先说明怎么安排、为什么这样排",
   "details_url": "https://github.com/dontbesilent2025/dbskill/commits/main"
 }

@@ -4,13 +4,13 @@
 
 > 起業家とコンテンツ制作者のための中国語 AI Skills ツールキット。ビジネス、コンテンツ、実行に関する現実の課題を Agent に渡し、明確な判断と次の具体的な行動を得られます。
 
-[![Version](https://img.shields.io/badge/version-2.22.1-111111.svg)](VERSION)
+[![Version](https://img.shields.io/badge/version-3.0.0-111111.svg)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-37-111111.svg)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111.svg)](LICENSE)
 
 **豆包、WorkBuddy、Claude Code、Codex、および Skills に対応する他の Agent で利用できます。**
 
-dbskill は [dontbesilent](https://x.com/dontbesilent) が作成しました。公開投稿 16,152 件から整理した 4,176 件の知識原子を含み、業務 Skill 35 個と更新エントリ 1 個を提供します。
+dbskill は [dontbesilent](https://x.com/dontbesilent) が作成しました。公開投稿 16,152 件から整理した 4,176 件の知識原子を含み、業務 Skill 34 個と更新エントリ 1 個を提供します。
 
 **今回の更新：** `/dbs-title-cover-intro` は、まずあなたと一緒にテーマを決めるようになりました。原稿から対象の広さが異なる最大 4 つのテーマをタイトル例付きで提示し、視聴者の信頼につながる経験や数字を尋ねます。選んだ後、小紅書・B 站・抖音・視頻号向けのタイトル、表紙の文字、冒頭を 1 画面で届けます。
 
@@ -68,9 +68,9 @@ dbskill は [dontbesilent](https://x.com/dontbesilent) が作成しました。�
 | 概念、目標、問いを明確にする | `/dbs-deconstruct`、`/dbs-goal`、`/dbs-good-question` | 検証可能な定義と目標 |
 | 先延ばしや実行の停滞を扱う | `/dbs-action` | 停滞分析と次の行動 |
 | 長期の意思決定を記録・振り返る | `/dbs-decision`、`/dbs-save`、`/dbs-restore`、`/dbs-report` | ローカルの記録とレポート |
-| コンテンツ資産と複数 Agent の環境を構築する | `/dbs-content-system`、`/dbs-agent-migration`、`/dbs-install-skill` | ローカルプロジェクトとインストール計画 |
+| コンテンツ資産と複数 Agent の環境を構築する | `/dbs-content-system`、`/dbs-install-skill` | ローカルプロジェクトとインストール計画 |
 | ローカルフォルダをナレッジベースにする | `/dbs-knowledge` | ナビゲーション、バージョン規則、すぐ使える質問例 |
-| 繰り返す作業を Skill にする | `/dbs-skill-maker` | インストール可能な Skill、検証結果、任意の公開準備 |
+| 繰り返す作業を Skill にする、既存の Skill を改善する | `/dbs-skill-maker` | 確認用の変更案、新規または改善後の Skill、変更前後の検証結果、任意の公開準備 |
 | 担当者に仕事を依頼して成果を確認 | `/dbs-human-dispatch` | 依頼文、質問への回答、成果確認、進捗報告 |
 
 現在の機能、入力例、役割の違いは [完全ガイドと Skill 一覧](docs/新手入门.md#skill-全目录) を参照してください。
@@ -106,7 +106,7 @@ claude plugin marketplace add dontbesilent2025/dbskill
 claude plugin install dbs@dontbesilent-skills
 ```
 
-`dbs` プラグインには業務 Skill 35 個と更新用の `dbs-update` が含まれます。Claude Code ではスキル調度台（技能調度台）に `/dbs:dbs`、個別機能に `/dbs:dbs-diagnosis` などを使用します。
+`dbs` プラグインには業務 Skill 34 個と更新用の `dbs-update` が含まれます。Claude Code ではスキル調度台（技能調度台）に `/dbs:dbs`、個別機能に `/dbs:dbs-diagnosis` などを使用します。
 
 機能を 1 つだけインストールする場合は、対応するプラグインを選択します。例：`claude plugin install dbs-diagnosis@dontbesilent-skills`
 
